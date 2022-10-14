@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="hello_world">Hello, World!</string>
+
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="cancel">cancel</string>
+
+    <string name="this_is_the_first_row">This is the first row!</string>
+    <string name="this_is_the_second_row">This is the second row!</string>
+    <string name="this_is_the_left_side_of_the_third_row">This is the left of the third row!</string>
+    <string name="this_is_the_right_side_of_the_third_row">This is the right of the third row!</string>
+
+    <string name="this_is_row_1">This is Row 1</string>
+    <string name="row_2_column_2">Row 2 Column-2</string>
+    <string name="row_2_column_3">Row 2 Column-3</string>
+    <string name="row_4_column_1">Row 4 Column-1</string>
+    <string name="row_4_column_2">Row 4 Column-2</string>
+    <string name="row_2_column_1">Row 2 Column-1</string>
+    <string name="row_3_column_1">Row 3 Column-1</string>
+    <string name="row_3_column_2">Row 3 Column-2</string>
+    <string name="row_3_column_3">Row 3 Column-3</string>
+    <string name="this_is_row_5">This is Row 5</string>
+
+    <string name="to_main_activity">To Main Activity</string>
+    <string name="to_relative_layout">To Relative Layout</string>
+    <string name="to_linear_layout">To Linear Layout</string>
+    <string name="to_grid_layout">To Grid Layout</string>
+    <string name="to_table_layout">To Table Layout</string>
+    <string name="to_table_layout2">To Table Layout 2</string>
+    <string name="to_recyclerview">To RecyclerView</string>
+    <string name="todo">TODO</string>
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+
+    <string-array name="programming_languages">
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Ruby</item>
+        <item>Swift</item>
+        <item>TypeScript</item>
+        <item>R</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Java description</item>
+        <item>JavaScript description</item>
+        <item>C++ description</item>
+        <item>C# description</item>
+        <item>Kotlin description</item>
+        <item>Python description</item>
+        <item>Ruby description</item>
+        <item>Swift description</item>
+        <item>TypeScript description</item>
+        <item>R description</item>
+    </string-array>
+
+</resources>

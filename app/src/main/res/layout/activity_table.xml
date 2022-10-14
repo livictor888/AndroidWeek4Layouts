@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/table_layout" >
+
+    <TableRow>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/table_layout1"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="15dp" >
+        </TableLayout>
+    </TableRow>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="300dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" >
+
+        <Button
+            android:id="@+id/btnToGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:width="130dp"
+            android:text="@string/to_grid_layout" />
+
+        <Button
+            android:id="@+id/btnToTable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:width="130dp"
+            android:text="@string/to_table_layout2" />
+    </LinearLayout>
+
+</TableLayout>

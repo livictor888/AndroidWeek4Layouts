@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewFirstLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_the_first_row"
+        android:textSize="30sp"
+
+        android:paddingTop="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/textViewSecondLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_the_second_row"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/boarder_line" >
+
+        <TextView
+            android:id="@+id/textViewThirdLeft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/this_is_the_left_side_of_the_third_row"
+            android:textSize="20sp"
+            android:layout_weight="10"
+            android:layout_marginEnd="30dp" />
+
+        <TextView
+            android:id="@+id/textViewThirdRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/this_is_the_right_side_of_the_third_row"
+            android:textSize="20sp"
+            android:layout_weight="20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="300dp"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" >
+
+        <Button
+            android:id="@+id/btnToRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:width="130dp"
+            android:text="@string/to_relative_layout" />
+
+        <Button
+            android:id="@+id/btnToGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:width="130dp"
+            android:text="@string/to_grid_layout" />
+
+    </LinearLayout>
+</LinearLayout>
